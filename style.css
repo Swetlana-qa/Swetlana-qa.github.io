@@ -1,0 +1,360 @@
+
+
+.vstuplenie {
+    display: block;
+    background-image: url(fon.jpg);
+    color: aliceblue;
+    padding: 220px 160px;
+    text-align:center;
+}
+.vs {
+    font-size: 30px;
+}
+
+.button {
+       padding: 10px 50px;
+       color: rgb(20, 3, 3);
+       background-color: rgb(154, 27, 27);
+       text-decoration: none;
+       border-radius: 4px;
+       display: inline-block;
+   }
+
+.Ya {
+    text-align: center;
+    background-image: url(fon.jpg);
+    padding: 50px;
+}
+
+.avatar {
+    width: 450px;
+    border-radius: 50%;
+    
+}
+
+.Ya1 {
+    color: aliceblue;
+}
+
+.Ya2 {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.Ya3 {
+    color: aliceblue;
+}
+
+.Ya4 {
+    color: aliceblue; 
+}
+
+.instrument {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+        padding: 30px 10px;
+        border-radius: 30px;
+}
+
+.blok {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+        padding: 30px 10px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.caption {font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <300>;
+    font-style: ExtraLight 200;
+}
+
+.fixed-size-imag1 {
+width: 70px;
+height: 70px;
+object-fit: cover;
+} 
+
+.fixed-size-imag2 {
+width: 70px;
+height: 70px;
+object-fit: cover;
+}
+
+@media (max-width: 1000px)
+{
+   .vs { 
+    font-size: 25px;
+    width: auto;
+   }
+}
+@media (max-width: 750px)
+{
+   .vs { 
+    font-size: 20px;
+    width: auto;
+   }
+}
+@media (max-width: 700px)
+{
+   .vs { 
+    font-size: 18px;
+    width: auto;
+   }
+}
+
+@media (max-width: 550px)
+{
+   .vs { 
+    font-size: 16px;
+    width: auto;
+   }
+}
+@media (max-width: 520px)
+{
+   .vs { 
+    font-size: 14px;
+    width: auto;
+   }
+}
+@media (max-width: 480px)
+{
+   .vs { 
+    font-size: 13px;
+    width: auto;
+   }
+}
+@media (max-width: 400px)
+{
+   .vs { 
+    font-size: 11px;
+    width: auto;
+   }
+}
+@media (max-width: 350px)
+{
+   .vs { 
+    font-size: 9px;
+    width: auto;
+   }
+}
+
+
+
+
+@media (max-width: 1000px)
+{
+   .button { 
+    font-size: 25px;
+    width: auto;
+    padding: 9px 45px
+   }
+}
+@media (max-width: 750px)
+{
+   .button { 
+    font-size: 20px;
+    width: auto;
+    padding: 8px 40px
+   }
+}
+@media (max-width: 700px)
+{
+   .button { 
+    font-size: 18px;
+    width: auto;
+    padding: 7px 37px
+   }
+}
+
+@media (max-width: 550px)
+{
+   .button{ 
+    font-size: 17px;
+    width: auto;
+    padding: 6px 33px
+   }
+}
+
+@media (max-width: 480px)
+{
+   .button { 
+    font-size: 11px;
+    width: auto;
+    padding: 5px 28px
+   }
+}
+
+@media (max-width: 592px)
+{  .vstuplenie{  
+    width: auto;
+    padding-right: 120px;
+    padding-left: 120px}
+}
+
+@media (max-width: 550px)
+{  .vstuplenie{  
+    width: auto;
+    padding-right: 100px;
+    padding-left: 100px}
+}
+@media (max-width: 520px)
+{  .vstuplenie{  
+    width: auto;
+    padding-right: 85px;
+    padding-left: 85px}
+}
+
+
+@media (max-width: 750px)
+{
+   .avatar { 
+    width: 400px;
+    
+   }
+}
+@media (max-width: 650px)
+{
+   .avatar { 
+    width: 350px;
+    
+   }
+}
+@media (max-width: 490px)
+{
+   .avatar { 
+    width: 300px;
+    
+   }
+}
+@media (max-width: 410px)
+{
+   .avatar { 
+    width: 270px;
+    
+   }
+}
+@media (max-width: 380px)
+{
+   .avatar { 
+    width: 240px;
+    
+   }
+}
+@media (max-width: 360px)
+{
+   .avatar { 
+    width: 220px;
+    
+   }
+}
+@media (max-width: 340px)
+{
+   .avatar { 
+    width: 200px;
+    
+   }
+}@media (max-width: 320px)
+{
+   .avatar { 
+    width: 180px;
+    
+   }
+}
+
+@media (max-width: 800px)
+{
+   .Ya1 { 
+    font-size: 26px;
+    width: auto;
+   }
+}
+
+
+@media (max-width: 750px)
+{
+    .blok {display: block;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+}
+@media (max-width:750px)
+{
+    .fixed-size-imag2{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:500px)
+{
+    .fixed-size-imag2{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:750px)
+{
+    .fixed-size-imag1{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:750px)
+{
+    .fixed-size-imag1{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 800px)
+{
+   .Ya3 { 
+    font-size: 22px;
+    width: auto;
+   }
+}
+@media (max-width: 600px)
+{
+   .Ya3 { 
+    font-size: 20px;
+    width: auto;
+   }
+}
+@media (max-width: 800px)
+{
+   .Ya4 { 
+    font-size: 22px;
+    width: auto;
+   }
+}
+@media (max-width: 600px)
+{
+   .Ya4 { 
+    font-size: 20px;
+    width: auto;
+   }
+}
